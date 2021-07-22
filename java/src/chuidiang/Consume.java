@@ -13,7 +13,7 @@ public class Consume {
 		public static void main(String[] args) {
 		
 			try {
-				URL url = new URL("https://apiecommerce.redpagos.co:8530/CheckOut/MethodGenerateTransaction");
+				URL url = new URL("https://apiecommerce.pagosinteligentes.com:8070/CheckOut/MethodGenerateTransaction");
 				connection = (HttpURLConnection) url.openConnection();
 				connection.setRequestMethod("POST");
 				connection.setRequestProperty("Content-Type", "application/json; utf-8");
