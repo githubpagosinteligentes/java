@@ -21,8 +21,8 @@ public class Consume {
 				connection.setDoOutput(true);
 				String jsonInputString ="{\"generateTransaction\":{"
 						+ "\"security\":{"
-							+ "\"accountId\": 30336,"
-							+ " \"token\": \"bflMObSMSnyvysHpC72*\"},"
+							+ "\"accountId\": 30414,"
+							+ " \"token\": \"OTalRWWPXzpIyBAst88$\"},"
 							
 						+ "\"infoPayment\":{"
 							+ "\"amount\": 10000,"
